@@ -1,4 +1,4 @@
-const io = require("socket.io")("https://apisocket.herokuapp.com", {
+const io = require("socket.io")("https://apibackend--1.herokuapp.com", {
     cors: {
         origin: "https://apifrontend---1.herokuapp.com",
     },
