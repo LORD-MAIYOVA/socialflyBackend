@@ -1,9 +1,4 @@
-const io = require("socket.io")("https://apisocket.herokuapp.com/", {
-    cors: {
-       Access-Control-Allow-Origin: *,
-    },
-});
-
+const io = require("socket.io")("https://apifrontend---1.herokuapp.com/");
 let users = [];
 
 const addUser = (userId, socketId) => {
